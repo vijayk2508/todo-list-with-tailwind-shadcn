@@ -30,7 +30,7 @@ export default function LoginForm() {
         toast({
           title: "Success",
           description: "Login Successful",
-          variant: "default",
+          variant: "success",
         });
       } else {
         toast({
